@@ -1,0 +1,10 @@
+copy start 0
+first stl retadr
+.cloop wrbuff 05, BUFFER, LENGTH
+clear x
+ldt LENGTH
+ldch BUFFER, x
+td =x' 05 '
+tlxr t
+jlt *-14
+end first

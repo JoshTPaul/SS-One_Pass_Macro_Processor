@@ -1,0 +1,12 @@
+copy start 0
+wrbuff macro &outdev, &bufadr, &reclth
+clear x
+ldt &reclth
+ldch &bufadr, x
+td =x' &outdev '
+tlxr t
+jlt *-14
+mend
+first stl retadr
+cloop wrbuff 05, BUFFER, LENGTH
+end first

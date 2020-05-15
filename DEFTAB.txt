@@ -1,0 +1,8 @@
+wrbuff macro &outdev, &bufadr, &reclth
+clear x
+ldt &reclth
+ldch &bufadr, x
+td =x' &outdev '
+tlxr t
+jlt *-14
+mend
