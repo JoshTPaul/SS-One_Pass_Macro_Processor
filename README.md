@@ -27,7 +27,7 @@ Stores the arguments passed by the macro invokation statement.
 
 
 
-This Minor Project was conducted the following students of CSE 6A, DSCE for the System Software Minor Project:
+This Minor Project was conducted during the 5th semester, by the following students of CSE 6A, DSCE for the System Software Minor Project:
 
 Jay Prakash Kumar     (1DS17CS047)
 
